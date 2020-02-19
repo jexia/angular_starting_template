@@ -1,0 +1,11 @@
+<div>
+    <h2>{{ title }}</h2>
+    <ul>
+        <!-- This is a  loop within Angular, it takes our objects passed from app.component.html and
+      splits them into keys and values. This then allows us to use {{ object.key }} or {{ object.value }} and
+      loop through each entry within our object -->
+        <li *ngFor="let link of links | keyvalue">
+            <a [href]="link.value" target="_blank ">{{ link.key }}</a>
+        </li>
+    </ul>
+</div>

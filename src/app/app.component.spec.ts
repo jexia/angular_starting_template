@@ -16,6 +16,10 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
+  /*
+
+  Intricate tests have not been added but the examples have been left below
+
   it(`should have as title 'angularjs-starting-template'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
@@ -28,4 +32,5 @@ describe('AppComponent', () => {
     const compiled = fixture.nativeElement;
     expect(compiled.querySelector('.content span').textContent).toContain('angularjs-starting-template app is running!');
   });
+  */
 });
