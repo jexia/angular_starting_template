@@ -37,7 +37,7 @@ const credentials = {
 /*  
   jexiaClient().init(credentials, dataModule);
   dataModule
-    .dataset("posts")
+    .dataset("<your-dataset-name>")
     .select()
     .execute()
     .then(records => console.log("All the records:", records))
