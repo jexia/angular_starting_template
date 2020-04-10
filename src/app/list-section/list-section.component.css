@@ -1,0 +1,43 @@
+/* Set the styles for each text element */
+
+h2 {
+    margin-bottom: 1em;
+    font-size: 1.75em;
+    font-weight: 400;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: #f9b200;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+
+/* Add styling to remove the normal list layout and replace it with a horizontal layout */
+
+ul {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    width: 100%;
+}
+
+ul li {
+    display: inline-block;
+    vertical-align: top;
+    width: auto;
+    padding: 5px 10px;
+}
+
+ul li a {
+    outline: none;
+    display: block;
+    text-align: center;
+    width: auto;
+}
+
+ul li a:active,
+ul li a:hover {
+    color: #d89b00;
+}

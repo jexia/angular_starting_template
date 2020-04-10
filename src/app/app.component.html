@@ -1,0 +1,25 @@
+<div id="app">
+    <!-- Create our layout for the HTML -->
+    <div class="flex-container">
+        <div class="row">
+            <div class="flex-item">
+                <!-- Include our custom elements with our custom attributes -->
+                <img class="logo" alt="Jexia Logo" src="./assets/images/logo.png" />
+            </div>
+            <div class="flex-item">
+                <app-header-title title="Welcome to your Jexia app." subTitle="Build applications faster than ever. Serverless, simple, secure.">
+                </app-header-title>
+                <div class="flex-item">
+                    <!-- the "journey" object declared in app.component.ts is passed to our custom links parameter -->
+                    <app-list-section title="Start your journey" [links]="journey">
+                    </app-list-section>
+                    <div class="flex-item">
+                        <app-list-section title="Essential Links" [links]="essentialLinks">
+                        </app-list-section>
+                    </div>
+                </div>
+            </div>
+            <!-- A component with no custom attributes is called. (Guess what this includes...) -->
+            <app-particles>
+            </app-particles>
+        </div>

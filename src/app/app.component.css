@@ -1,0 +1,8 @@
+/* This could also be in styles.css but as this is only included on the main view I decided to place it here as an example. */
+/* Apply the styling for the logo to ensure it's not too big */
+
+.logo {
+    margin: .1em;
+    height: auto;
+    max-height: 10em;
+}
