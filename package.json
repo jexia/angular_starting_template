@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "http-server ./dist -p 80",
+    "start": "http-server ./dist -p 8080",
     "dev": "ng serve",
     "build": "ng build",
     "test": "ng test",

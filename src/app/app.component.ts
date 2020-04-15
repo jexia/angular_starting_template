@@ -9,10 +9,10 @@ export class AppComponent {
   // Declare the variables that are used within this components HTML file and sent to other components
   journey = {
     "Sign-up": 'https://app.jexia.com/signup',
-    "Take a tour": 'https://www.jexia.com/en/docs/getting-started/'
+    "Take a tour": 'https://docs.jexia.com/get-started/'
   }
   essentialLinks = {
-    Docs: 'https://www.jexia.com/en/docs/',
+    Docs: 'https://docs.jexia.com/',
     Support: 'https://www.jexia.com/en/contact/',
     Features: 'https://www.jexia.com/en/features/',
     Jobs: 'https://jexiacom.recruitee.com/',
