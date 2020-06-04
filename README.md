@@ -1,6 +1,7 @@
 # Angularjs Starting Template
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.2.
+Demo - [![Runme](https://runme.io/static/button.svg)](https://runme.io/run?app_id=1e9ec5f9-f200-4182-919f-b8c2acde7d29)
 
 ## Development server
 
