@@ -26,7 +26,7 @@
     "node-fetch": "^2.6.1",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
-    "ws": "^7.2.3",
+    "ws": "^7.4.6",
     "zone.js": "~0.10.2"
   },
   "devDependencies": {
